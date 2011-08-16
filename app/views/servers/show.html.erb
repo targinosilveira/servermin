@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nome:</b>
+  <%= @server.nome %>
+</p>
+
+<p>
+  <b>Ip:</b>
+  <%= @server.ip %>
+</p>
+
+
+<%= link_to 'Edit', edit_server_path(@server) %> |
+<%= link_to 'Back', servers_path %>
